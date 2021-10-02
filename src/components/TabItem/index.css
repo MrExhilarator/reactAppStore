@@ -1,0 +1,18 @@
+/* Write your CSS here */
+.tab {
+  padding: 8px 12px;
+  background-color: transparent;
+  border-bottom: solid 2px #dfe2e5 !important;
+  border: 0px;
+  color: #7b8794;
+  font-weight: bold;
+  font-family: 'Roboto';
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+}
+
+.selected-tab {
+  color: #2563eb;
+  border-bottom: solid 2px #2563eb !important;
+}

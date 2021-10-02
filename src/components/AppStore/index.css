@@ -1,0 +1,62 @@
+/* Write your CSS here */
+.background-container {
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 20px 0px;
+  align-items: center;
+  font-family: 'Bree Serif';
+}
+
+.heading {
+  margin: 35px;
+  color: #1e293b;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  padding: 6px;
+  border: solid 1px #7b8794;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+
+.search-box {
+  background-color: transparent;
+  border: 0px;
+  outline: none;
+  width: 90%;
+  color: #1e293b;
+  font-weight: bold;
+}
+
+input::placeholder {
+  font-weight: normal;
+}
+
+.search-img {
+  width: 10%;
+}
+
+.tabs-list {
+  padding-left: 0px;
+  list-style-type: none;
+  display: flex;
+}
+
+.apps-list {
+  width: 90%;
+  padding-left: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px){
+    .apps-list{
+        width: 70%;
+    }
+}
