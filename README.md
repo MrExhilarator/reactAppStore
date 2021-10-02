@@ -25,7 +25,6 @@
 
 <details>
 <summary>Click to view</summary>
-</br>
 - Download dependencies by running `npm install`
 - Start up the app using `npm start`
 </details>
