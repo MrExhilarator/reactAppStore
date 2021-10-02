@@ -1,12 +1,15 @@
-In this project, let's build an **App Store** by applying the concepts we have learned till now.
-
 ### Refer to the image below:
 
+<details>
+<summary>Click to view</summary>
+    
 <br/>
 <div style="text-align: center;">
     <img src="https://assets.ccbp.in/frontend/content/react-js/app-store-output.gif" alt="app store output" style="max-width:90%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
 </div>
 <br/>
+    
+</details>
 
 ### Design Files
 
@@ -27,30 +30,30 @@ In this project, let's build an **App Store** by applying the concepts we have l
 - Start up the app using `npm start`
 </details>
 
-### Completion Instructions
+### Functionalities
 
 <details>
 <summary>Functionality to be added</summary>
 <br/>
 
-The app must have the following functionalities
+The app has the following functionalities
 
-- Initially, the **Social** tab should be active and the apps with **Social** as their category should be displayed
+- Initially, the **Social** tab will be active and the apps with **Social** as their category will be displayed
 - When a value is provided in the search input
-  - The apps in the active category, that include search input value in their name should be displayed
-  - When another tab is clicked, the apps in the corresponding category, that include search input value in their name should be displayed
-  - The search should be case insensitive
+  - The apps in the active category, that include search input value in their name will be displayed
+  - When another tab is clicked, the apps in the corresponding category, that include search input value in their name will be displayed
+  - The search is case insensitive
 - When the search input is empty,
-  - All the apps in the active category should be displayed
-  - When another tab is clicked, the apps in the corresponding category should be displayed
-- The `AppStore` component is provided with `tabsList`. It consists of a list of tabItem objects with the following properties in each tabItem object
+  - All the apps in the active category will be displayed
+  - When another tab is clicked, the apps in the corresponding category will be displayed
+- The `AppStore` component has `tabsList`. It consists of a list of tabItem objects with the following properties in each tabItem object
 
   |     Key     | Data Type |
   | :---------: | :-------: |
   |    tabId    |  String   |
   | displayText |  String   |
 
-- The `AppStore` component is provided with `appsList`. It consists of a list of app objects with the following properties in each app object
+- The `AppStore` component has `appsList`. It consists of a list of app objects with the following properties in each app object
 
   |   Key    | Data Type |
   | :------: | :-------: |
@@ -72,28 +75,13 @@ The app must have the following functionalities
 
 </details>
 
-<details>
-<summary>Implementation Files</summary>
-<br/>
-
-Use these files to complete the implementation:
-
-- `src/components/AppStore/index.js`
-- `src/components/AppStore/index.css`
-- `src/components/TabItem/index.js`
-- `src/components/TabItem/index.css`
-- `src/components/AppItem/index.js`
-- `src/components/AppItem/index.css`
-
-</details>
-
-### Quick Tips
+### Salient styling
 
 <details>
 <summary>Click to view</summary>
 <br>
 
-- You can use the `cursor` CSS property to specify the mouse cursor to be displayed when pointing over an element
+- Used the `cursor` CSS property to specify the mouse cursor to be displayed when pointing over an element
 
   ```
     cursor: pointer;
@@ -102,7 +90,7 @@ Use these files to complete the implementation:
   <br/>
    <img src="https://assets.ccbp.in/frontend/content/react-js/cursor-pointer-img.png" alt="cursor pointer" style="width:100px" />
 
-- You can use the below `outline` CSS property for buttons and input elements to remove the highlighting when the elements are clicked
+- Used the `outline` CSS property for buttons and input elements to remove the highlighting when the elements are clicked
 
   ```
     outline: none;
@@ -115,7 +103,7 @@ Use these files to complete the implementation:
 <details>
 <summary>Image URLs</summary>
 
-- [https://assets.ccbp.in/frontend/react-js/app-store/app-store-search-img.png](https://assets.ccbp.in/frontend/react-js/app-store/app-store-search-img.png) alt should be **search icon**
+- [https://assets.ccbp.in/frontend/react-js/app-store/app-store-search-img.png](https://assets.ccbp.in/frontend/react-js/app-store/app-store-search-img.png)
 
 </details>
 
@@ -140,10 +128,3 @@ Use these files to complete the implementation:
 - Bree Serif
 
 </details>
-
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
